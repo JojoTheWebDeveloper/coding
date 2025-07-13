@@ -16,7 +16,7 @@ body {
   color: #e29b02;
 }
 
-i, svg{
+i, .aud{
   color: #666161;
 }
 
@@ -169,17 +169,17 @@ main {
 }
 
 /* Informations Section */
-.informations {
+.informations, .location {
   background: #fff;
   padding: 30px 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   text-align: center;
-  height: 230px;
+  height: 24%;
 }
 
-.informations h4 {
+.informations h4, .location h4{
   font-size: 2rem;
   margin-bottom: 20px;
   color: #333;
